@@ -1,0 +1,12 @@
+Mechanics of the game:
+keystroke activates functions:
+    * validation of key stroke
+    * selection of activeword
+        If wordlist >0:
+            randomly select active word in array
+            splice active word from arrary
+            push active word to end of used word array
+        Else:
+            load end game screen
+    * creation of shadow string
+    * comparison of keystroke with activeword
