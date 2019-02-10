@@ -68,12 +68,9 @@ var game = {
                     if (activeWord[i] === letter) {
                         shadow[i] = letter;
                         complete++;
-                        console.log(complete)
-                        console.log(shadow);
                     }
                 }
                 shadowstring = shadow.join(" ");
-                console.log(shadowstring)
                 document.getElementById("wordBox").innerHTML = shadowstring;
             };
         };
