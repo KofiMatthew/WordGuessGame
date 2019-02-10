@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/hosmer.JPG");
+    background-size: 2000px;
+    /* background-color: #cccccc; */
+  }
+
+#gameHeader, #gameSub, #getStarted{
+    font-family:'Asset', cursive;
+}
+
+#gameHeader {
+    font-size: 48px;
+}
+
+#gameSub {
+    font-size: 36px;
+}
+
+#getStarted{
+    font-size: 24px;
+    height: 100px;
+}
+.playinfo {
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: 'Vollkorn', serif;
+
+}
+#solveImage{
+    height: 500px;
+    border: 2px;
+    border-block-start: 2px;
+    border-radius: 2px;
+
+}
+#wordBox {
+    font-size: 40px;
+    height: 220px;
+    text-align-last: center;
+}
